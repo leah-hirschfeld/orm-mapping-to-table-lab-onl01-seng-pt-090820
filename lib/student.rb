@@ -23,7 +23,7 @@ class Student
     sql =  <<-SQL
       select grade from students
         SQL
-    DB[:conn]
+    DB[:conn].execute(sql)
   end
 
   def save
