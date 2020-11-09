@@ -4,8 +4,8 @@ class Student
 
   def initialize
     #@id = id
-    @name = name
-    @grade = grade
+    #@name = name
+    #@grade = grade
   end
 
 end
